@@ -1,0 +1,71 @@
+About Dataset:
+***************
+Description:
+This is a countrywide car accident dataset that covers 49 states of the USA. The accident data were collected from February 2016 to March 2023, using multiple APIs that provide streaming traffic incident (or event) data. These APIs broadcast traffic data captured by various entities, including the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road networks. The dataset currently contains approximately 7.7 million accident records
+
+
+The Processe of analyzing this dataset:
+***************************************
+step1==select a large real-world dataset from Kaggle
+step2==perfom data preparation & cleaning using Pandas & NUmpy
+step3==perform exploratory analysis & visualization usin Matplotlib & Seaborn
+step4==Ask & answer questions about the data in a JUpyter Notebook
+step5==Summarize the inferences & write a conclusion
+
+Ask & answer questions:
+***********************
+1:are there more accidents in warmer or colder areas? answered
+2:which 5 states have the highest number of accidents? answered
+3:Does new york show up in the dataset? if yes, why is the count lower if this the highest populated city? answered
+4:among the top 100 cities in number of accidents, which states do they belong to most frequently? answered
+5:what time of the day are accidents most frequent in? answered
+6:which days of the week have the most accidents? answered
+7:wich moths have the most accidents? answered
+8:what is the trend of accidents year over year (decreasing or increasing)? answered
+
+
+
+Insights:
+*********
+- No data from New York
+- Less than 1% of cities have more than 10000 accidents
+- Most of the cities have between 0 and 1000 accidents
+- A high % of accidents occur between 6 am to 10 am , probably people in a hurry to get to work.
+- Next highest % of accidents is between 3 pm to 6 pm (time to returning from work).
+- The number of accidents is lower on week-ends.
+- On weekends, the peak occurs between 10 AM and 4 PM, unlike on weekdays.
+- The highest percentage of accidents occurs in the winter months.
+- The number of accidents increasing year over year.
+- The data is concetrated in some regions
+- The most of accidents occure when the temperature is between 60 F & 80 F (warmer areas).
+
+
+
+
+Conclusion:
+**********
+*Geographical Distribution:
+-The dataset does not include any data from New York.
+-Less than 1% of cities have experienced more than 10,000 accidents.
+-Most cities have between 0 and 1,000 accidents, indicating a wide distribution across many locations.
+
+*Temporal Patterns:
+-A significant percentage of accidents occur between 6 AM and 10 AM, likely due to people hurrying to get to work.
+-The next highest percentage of accidents is between 3 PM and 6 PM, corresponding to the time when people are returning from -work.
+-The number of accidents decreases on weekends, with the peak occurring between 10 AM and 4 PM, unlike on weekdays.
+
+*Seasonal Variations:
+-The highest percentage of accidents occurs during the winter months.
+-There is a year-over-year increase in the number of accidents, suggesting a rising trend.
+
+*Temperature Influence:
+-Most accidents occur when the temperature is between 60°F and 80°F, indicating a higher frequency in warmer areas.
+
+*Regional Concentration:
+-The data shows a concentration of accidents in specific regions, suggesting that certain areas are more prone to accidents than others.
+
+
+
+
+
+
